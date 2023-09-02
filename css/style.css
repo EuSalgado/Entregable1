@@ -54,17 +54,14 @@ header nav ul li a,
     align-items: center;
     display: flex;
     justify-content: space-between;
-    flex-wrap: flex;
     width: 60vw;
 }
-
 
 .info-live {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
     min-width: 542px;
-    min-height: 410px;
     align-items: end;
     margin: auto 0 auto 7rem;
 }
@@ -115,12 +112,12 @@ header nav ul li a,
     justify-content: center;
 }
 
-.step{
+.step {
     width: 50%;
     margin-bottom: 5rem;
 }
 
-.title-step{
+.title-step {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
@@ -143,10 +140,10 @@ header nav ul li a,
     color: #323851;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
-    margin: 0 1rem 0 1rem;    
+    margin: 0 1rem 0 1rem;
 }
 
-.description-step{
+.description-step {
     color: #B3B2B7;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
@@ -160,4 +157,57 @@ header nav ul li a,
 /* TODAS LAS PSEUDOCLASES VAN AL FINAL DEL CSS */
 header nav ul li:hover {
     opacity: .6;
+}
+
+.contact:hover {
+    background-color: #9836e2;
+}
+
+/* Desktop */
+@media screen and (min-width:1024px) {
+    .icon-nav{
+        display: none;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width:767px) {
+    nav, .contact-nav{
+        display: none;
+    }
+
+    .first{
+        background-color: red;
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    .intro{
+        background-color: violet;
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    
+    .paddel-player{
+        background-color:aqua;
+        margin: 0 0 5rem 0;
+        width: 100vw;
+
+    }
+
+    .paddel-player img{
+        width: 100vw;
+        padding: 1rem;
+    }
+    
+    .info-live{
+        background-color: green;
+        margin: 0;
+        min-width: 100vw;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .info-live h1{
+        font-size: 2.5rem;
+    }
 }
