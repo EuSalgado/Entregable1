@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;500;700&display=swap');
 
 * {
     margin: 0px;
@@ -40,12 +40,76 @@ header nav ul li a, .contact{
     font-weight: 300;
     height: 2.6rem;
     justify-content: center;
-    text-align: center;
     width: 9rem;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.intro{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: flex;
+    width: 60vw;
+}
+
+
+.info-live{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    min-width: 542px;
+    min-height: 410px;
+    align-items: end;
+    margin: auto 0 auto 7rem;
+}
+
+.info-live *{
+    margin-bottom: 1.5rem;
+}
+
+.info-live h1{
+    color: #242E52;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: right;
+}
+
+.info-live p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    text-align: right;
+}
+
+.different{
+    background-color: #8B48BF;
+    color: white;
+    display: flex;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    justify-content: space-evenly;
+    padding: 2.5rem 25rem;
+}
+
+.different h2{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 28rem;
+}
+
+.different p{
+    font-weight: 500;
+    width: 28rem;
 }
 
 
 
+
+/* TODAS LAS PSEUDOCLASES VAN AL FINAL DEL CSS */
 header nav ul li:hover{
     opacity: .6;
 }
