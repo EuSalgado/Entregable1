@@ -24,7 +24,8 @@ header nav ul li {
     margin: auto;
 }
 
-header nav ul li a, .contact{
+header nav ul li a,
+.contact {
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: .8rem;
@@ -43,13 +44,13 @@ header nav ul li a, .contact{
     width: 9rem;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     margin: 2rem 0 3rem 0;
 }
 
-.intro{
+.intro {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -58,7 +59,7 @@ header nav ul li a, .contact{
 }
 
 
-.info-live{
+.info-live {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
@@ -68,11 +69,11 @@ header nav ul li a, .contact{
     margin: auto 0 auto 7rem;
 }
 
-.info-live *{
+.info-live * {
     margin-bottom: 1.5rem;
 }
 
-.info-live h1{
+.info-live h1 {
     color: #242E52;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 3.125rem;
@@ -80,13 +81,13 @@ header nav ul li a, .contact{
     text-align: right;
 }
 
-.info-live p{
+.info-live p {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
     text-align: right;
 }
 
-.different{
+.different {
     background-color: #8B48BF;
     color: white;
     display: flex;
@@ -95,21 +96,68 @@ header nav ul li a, .contact{
     padding: 2.5rem 25rem;
 }
 
-.different h2{
+.different h2 {
     font-size: 2rem;
     font-weight: 700;
     width: 28rem;
 }
 
-.different p{
+.different p {
     font-weight: 500;
     width: 28rem;
+}
+
+.steps {
+    background-color: #FAFAFA;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 20rem 0rem 20rem;
+    justify-content: center;
+}
+
+.step{
+    width: 50%;
+    margin-bottom: 5rem;
+}
+
+.title-step{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.number-step {
+    align-items: center;
+    display: flex;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    height: 2.5rem;
+    justify-content: center;
+    width: 4.375rem;
+}
+
+.name-step {
+    color: #323851;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    margin: 0 1rem 0 1rem;    
+}
+
+.description-step{
+    color: #B3B2B7;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
+    width: 30rem;
+    margin-left: 6.3rem;
 }
 
 
 
 
 /* TODAS LAS PSEUDOCLASES VAN AL FINAL DEL CSS */
-header nav ul li:hover{
+header nav ul li:hover {
     opacity: .6;
 }
