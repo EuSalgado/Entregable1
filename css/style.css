@@ -53,17 +53,17 @@ header nav ul li a,
 .intro {
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    width: 60vw;
+    justify-content: space-evenly;
+    width: 95%;
 }
 
 .info-live {
     align-items: end;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
-    min-width: 542px;
-    margin: auto 0 auto 7rem;
+    padding: 0 0 0 1rem;
+    width: 32rem;
 }
 
 .info-live * {
@@ -89,20 +89,22 @@ header nav ul li a,
     color: white;
     display: flex;
     font-family: 'Be Vietnam Pro', sans-serif;
-    justify-content: space-evenly;
-    padding: 2.5rem 25rem;
-    width: 100vw;
+    justify-content: space-around;
+    padding: 2.5rem 0;
+    width: 100%;
 }
 
 .different h2 {
     font-size: 2rem;
     font-weight: 700;
     width: 28rem;
+    margin-right: 2.5vw;
 }
 
 .different p {
     font-weight: 500;
     width: 28rem;
+    margin-left: 2.5vw;
 }
 
 .steps {
@@ -110,12 +112,12 @@ header nav ul li a,
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 3rem 20rem 0rem 20rem;
+    justify-content: space-evenly;
 }
 
 .step {
-    margin-bottom: 5rem;
-    width: 50%;
+    margin: 2rem 0;
+    width: 33.4%;
 }
 
 .title-step {
@@ -148,8 +150,8 @@ header nav ul li a,
     color: #B3B2B7;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
-    margin-left: 6.3rem;
-    width: 30rem;
+    margin-left: 5.375rem;
+    min-width: 24rem;
 }
 
 
@@ -164,7 +166,9 @@ header nav ul li:hover {
 
 /* Desktop */
 @media screen and (min-width:1024px) {
-    .icon-nav {
+
+    .icon-nav,
+    .different-movil {
         display: none;
     }
 }
@@ -173,36 +177,37 @@ header nav ul li:hover {
 @media screen and (max-width:1023px) {
 
     nav,
-    .contact-nav {
+    .contact-nav,
+    .different-desktop {
         display: none;
     }
 
     .first {
         justify-content: flex-start;
         margin: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     .intro {
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
     }
 
     .paddel-player {
         margin: 0 0 5rem 0;
-        width: 100vw;
+        width: 100%;
     }
 
     .paddel-player img {
-        width: 100vw;
+        width: 100%;
         padding: 7vw;
     }
 
     .info-live {
         margin: 0;
         margin-bottom: 1rem;
-        min-width: 100vw;
-        padding: 0 1rem 0 1rem;
+        min-width: 100%;
+        padding: 0 1rem 0 2rem;
     }
 
     .info-live h1 {
@@ -223,6 +228,7 @@ header nav ul li:hover {
     .different p {
         font-size: .78rem;
         line-height: 1.2rem;
+        margin-left: 0;
         margin-top: 1rem;
         width: 85vw;
     }
@@ -241,8 +247,8 @@ header nav ul li:hover {
     .title-step {
         background-color: rgba(139, 72, 191, 0.3);
         border-radius: 50px 0 0 50px;
-        margin-left: 2rem;
-        width: 90vw;
+        margin-left: 7vw;
+        width: 93vw;
     }
 
     .name-step {
@@ -250,8 +256,9 @@ header nav ul li:hover {
     }
 
     .description-step {
-        margin: 1.5rem 0 .5rem 2rem;
         font-size: .9rem;
+        margin: 1.5rem 0 .5rem 8vw;
         width: 90vw;
+        min-width: 0%;
     }
 }
