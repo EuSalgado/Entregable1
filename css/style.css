@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;500;700&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
 header {
@@ -19,8 +19,8 @@ header nav ul {
 
 header nav ul li {
     list-style: none;
-    padding: 0 1rem;
     margin: auto;
+    padding: 0 1rem;
 }
 
 header nav ul li a,
@@ -34,10 +34,10 @@ header nav ul li a,
 
 .contact {
     align-items: center;
-    display: flex;
     background-color: #8B48BF;
     border-radius: 50px;
     color: #fff;
+    display: flex;
     font-weight: 300;
     height: 2.6rem;
     justify-content: center;
@@ -58,11 +58,11 @@ header nav ul li a,
 }
 
 .info-live {
+    align-items: end;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
     min-width: 542px;
-    align-items: end;
     margin: auto 0 auto 7rem;
 }
 
@@ -88,10 +88,10 @@ header nav ul li a,
     background-color: #8B48BF;
     color: white;
     display: flex;
-    width: 100vw;
     font-family: 'Be Vietnam Pro', sans-serif;
     justify-content: space-evenly;
     padding: 2.5rem 25rem;
+    width: 100vw;
 }
 
 .different h2 {
@@ -109,27 +109,27 @@ header nav ul li a,
     background-color: #FAFAFA;
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 20rem 0rem 20rem;
     justify-content: center;
+    padding: 3rem 20rem 0rem 20rem;
 }
 
 .step {
-    width: 50%;
     margin-bottom: 5rem;
+    width: 50%;
 }
 
 .title-step {
-    display: flex;
     align-items: center;
+    display: flex;
     margin-bottom: 1rem;
 }
 
 .number-step {
     align-items: center;
-    display: flex;
     background-color: #8B48BF;
     border-radius: 50px;
     color: #fff;
+    display: flex;
     font-weight: 700;
     font-family: 'Be Vietnam Pro', sans-serif;
     height: 2.5rem;
@@ -148,11 +148,9 @@ header nav ul li a,
     color: #B3B2B7;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
-    width: 30rem;
     margin-left: 6.3rem;
+    width: 30rem;
 }
-
-
 
 
 /* TODAS LAS PSEUDOCLASES VAN AL FINAL DEL CSS */
@@ -166,69 +164,92 @@ header nav ul li:hover {
 
 /* Desktop */
 @media screen and (min-width:1024px) {
-    .icon-nav{
+    .icon-nav {
         display: none;
     }
 }
 
 /* Smartphones */
 @media screen and (max-width:767px) {
-    nav, .contact-nav{
+
+    nav,
+    .contact-nav {
         display: none;
     }
 
-    .first{
-        background-color: red;
+    .first {
         justify-content: flex-start;
         margin: 0;
     }
 
-    .intro{
-        background-color: violet;
+    .intro {
         flex-wrap: wrap;
         width: 100vw;
     }
-    
-    .paddel-player{
-        background-color:aqua;
+
+    .paddel-player {
         margin: 0 0 5rem 0;
         width: 100vw;
     }
 
-    .paddel-player img{
+    .paddel-player img {
         width: 100vw;
-        padding: 1rem;
+        padding: 7vw;
     }
-    
-    .info-live{
-        background-color: green;
+
+    .info-live {
         margin: 0;
         margin-bottom: 1rem;
         min-width: 100vw;
         padding: 0 1rem 0 1rem;
     }
 
-    .info-live h1{
+    .info-live h1 {
         font-size: 2.5rem;
     }
 
-    .different{
-        background-color:#3CDDF3;
+    .different {
+        background-color: #3CDDF3;
         flex-direction: column;
         padding: 2.5rem 1rem;
     }
 
-    .different h2{
+    .different h2 {
         margin-bottom: 1.5rem;
-        width: 80vw;
+        width: 60vw;
     }
 
-    .different p{
+    .different p {
         font-size: .78rem;
         line-height: 1.2rem;
         margin-top: 1rem;
         width: 85vw;
     }
 
+    .steps {
+        background-color: #fff;
+        flex-direction: column;
+        margin: 4rem 0rem;
+        padding: 0 0 0 0;
+    }
 
+    .step {
+        margin-bottom: 2rem;
+    }
+
+    .title-step {
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0 0 50px;
+        margin-left: 2rem;
+        width: 90vw;
+    }
+
+    .name-step {
+        font-size: 0.8rem;
+    }
+
+    .description-step {
+        margin-left: 2rem;
+        width: 90vw;
+    }
 }
