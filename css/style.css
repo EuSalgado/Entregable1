@@ -14,7 +14,6 @@ header {
 }
 
 header nav ul {
-    color: #242E52;
     display: flex;
 }
 
@@ -26,6 +25,7 @@ header nav ul li {
 
 header nav ul li a,
 .contact {
+    color: #242E52;
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: .8rem;
@@ -88,6 +88,7 @@ header nav ul li a,
     background-color: #8B48BF;
     color: white;
     display: flex;
+    width: 100vw;
     font-family: 'Be Vietnam Pro', sans-serif;
     justify-content: space-evenly;
     padding: 2.5rem 25rem;
@@ -160,7 +161,7 @@ header nav ul li:hover {
 }
 
 .contact:hover {
-    background-color: #9836e2;
+    background-color: #7133a0;
 }
 
 /* Desktop */
@@ -178,8 +179,8 @@ header nav ul li:hover {
 
     .first{
         background-color: red;
-        margin: 0;
         justify-content: flex-start;
+        margin: 0;
     }
 
     .intro{
@@ -192,7 +193,6 @@ header nav ul li:hover {
         background-color:aqua;
         margin: 0 0 5rem 0;
         width: 100vw;
-
     }
 
     .paddel-player img{
@@ -203,6 +203,7 @@ header nav ul li:hover {
     .info-live{
         background-color: green;
         margin: 0;
+        margin-bottom: 1rem;
         min-width: 100vw;
         padding: 0 1rem 0 1rem;
     }
@@ -210,4 +211,24 @@ header nav ul li:hover {
     .info-live h1{
         font-size: 2.5rem;
     }
+
+    .different{
+        background-color:#3CDDF3;
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+    }
+
+    .different h2{
+        margin-bottom: 1.5rem;
+        width: 80vw;
+    }
+
+    .different p{
+        font-size: .78rem;
+        line-height: 1.2rem;
+        margin-top: 1rem;
+        width: 85vw;
+    }
+
+
 }
