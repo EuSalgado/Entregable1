@@ -170,7 +170,7 @@ header nav ul li:hover {
 }
 
 /* Smartphones */
-@media screen and (max-width:767px) {
+@media screen and (max-width:1023px) {
 
     nav,
     .contact-nav {
@@ -180,6 +180,7 @@ header nav ul li:hover {
     .first {
         justify-content: flex-start;
         margin: 0;
+        width: 100vw;
     }
 
     .intro {
@@ -229,7 +230,7 @@ header nav ul li:hover {
     .steps {
         background-color: #fff;
         flex-direction: column;
-        margin: 4rem 0rem;
+        margin: 3rem 0rem;
         padding: 0 0 0 0;
     }
 
@@ -249,7 +250,8 @@ header nav ul li:hover {
     }
 
     .description-step {
-        margin-left: 2rem;
+        margin: 1.5rem 0 .5rem 2rem;
+        font-size: .9rem;
         width: 90vw;
     }
 }
