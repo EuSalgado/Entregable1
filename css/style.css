@@ -155,6 +155,75 @@ header nav ul li a,
 }
 
 
+/*CSS SEGUNDA PARTE FRIDA*/
+
+.reviews {
+    margin: 3rem 0 3rem 0;
+    padding: .5rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.reviews h2{
+    font-size: 2rem;
+    font-weight: 700;
+    justify-content: center;
+    padding: 0 0 5rem 0;
+}
+.review h3{
+    color: #323851;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    margin: 1.5rem;
+}
+.review p{
+    color: #B3B2B7;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 300;
+    min-width: 24rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.more {
+    align-items: center;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-weight: 300;
+    height: 2.6rem;
+    justify-content: center;
+    width: 9rem;
+    margin-top: 2rem;
+}
+
+.review-content{
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFAFA;
+    padding: 1rem;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.info img{
+    position: absolute;
+    top: -4rem;
+}
+
 /* TODAS LAS PSEUDOCLASES VAN AL FINAL DEL CSS */
 header nav ul li:hover {
     opacity: .6;
@@ -261,4 +330,6 @@ header nav ul li:hover {
         width: 90vw;
         min-width: 0%;
     }
+
+
 }
