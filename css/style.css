@@ -351,6 +351,17 @@ header nav ul li:hover {
     background-color: #7133a0;
 }
 
+.more:hover {
+    background-color: #7133a0;
+}
+.newsletter button:hover {
+    background-color: #7133a0
+}
+
+.best-teams p:hover {
+background-color: #ebebeb;
+}
+
 /* Desktop */
 @media screen and (min-width:1024px) {
 
@@ -447,6 +458,44 @@ header nav ul li:hover {
         margin: 1.5rem 0 .5rem 8vw;
         width: 90vw;
         min-width: 0%;
+    }
+
+    .reviews{
+        margin: 5rem 0 5rem 0;
+    }
+    .review-content{
+        display: flex;
+        flex-direction: column;
+        background-color: #FAFAFA;
+        padding: 1rem;
+    }
+    .review{
+        margin-top: 5rem;
+    }
+
+    .best-teams {
+        background-color: #3CDDF3;
+        flex-direction: column;
+        padding: 2.5rem 1rem;
+    }
+
+    .best-teams h2 {
+        margin-bottom: 1.5rem;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .best-teams p {
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+    .second-footer{
+        flex-direction: row;
+        min-width: 5rem;  
     }
 
 
