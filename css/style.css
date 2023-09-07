@@ -383,7 +383,8 @@ header nav ul li:hover {
 @media screen and (min-width:1024px) {
 
     .icon-nav,
-    .different-movil {
+    .different-movil,
+    .footer-movil {
         display: none;
     }
 }
@@ -391,9 +392,10 @@ header nav ul li:hover {
 /* Smartphones */
 @media screen and (max-width:1023px) {
 
-    nav,
+    .start-nav,
     .contact-nav,
-    .different-desktop {
+    .different-desktop,
+    footer {
         display: none;
     }
 
@@ -487,15 +489,17 @@ header nav ul li:hover {
         padding: 1rem;
     }
 
-    .review-sanyo, .review-navarro{
+    .review-sanyo,
+    .review-navarro {
         display: none;
     }
 
-    .review p , .review{
+    .review p,
+    .review {
         width: 90vw;
     }
 
-    .reviews h2{
+    .reviews h2 {
         padding: 0;
         margin-bottom: 4rem;
     }
@@ -517,12 +521,57 @@ header nav ul li:hover {
         color: #ffffff;
     }
 
-    footer {
-        flex-direction: column-reverse;
+    .footer-movil {
+        background-color: #000;
+    }
+
+    .third-footer {
+        min-height: 0;
+        min-width: 0;
+        margin: 0;
+        padding: 3rem 0 0 0;
+        margin: 0 0 3rem 0;
+        align-items: center;
     }
 
     .second-footer {
-        flex-direction: row;
-        min-width: 5rem;
+        padding: 0;
+        min-width: 0;
+        width: 100vw;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+
+    .nav1,
+    .nav2 {
+        color: white;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-size: .8rem;
+    }
+
+    .nav1 ul li,
+    .nav2 ul li {
+        list-style: none;
+        font-weight: 300;
+        line-height: 2rem;
+    }
+
+    .socialmedia-footer {
+        margin: 2rem 0 3rem 0;
+        width: 100vw;
+        justify-content: space-evenly;
+    }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-bottom: 3rem;
+    }
+
+    .copyright{
+        width: 100vw;
+        text-align: center;
+        padding: 0 0 2rem 0;
     }
 }
