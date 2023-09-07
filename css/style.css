@@ -451,7 +451,7 @@ header nav ul li:hover {
     .steps {
         background-color: #fff;
         flex-direction: column;
-        margin: 3rem 0rem;
+        margin: 1.5rem 0rem;
         padding: 0 0 0 0;
     }
 
@@ -478,7 +478,7 @@ header nav ul li:hover {
     }
 
     .reviews {
-        margin: 5rem 0 5rem 0;
+        margin: 0 0 3rem 0;
     }
 
     .review-content {
@@ -491,16 +491,13 @@ header nav ul li:hover {
         display: none;
     }
 
-    .review {
-        margin-top: 5rem;
-    }
-
     .review p , .review{
         width: 90vw;
     }
 
     .reviews h2{
         padding: 0;
+        margin-bottom: 4rem;
     }
 
     .best-teams {
