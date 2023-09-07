@@ -64,4 +64,4 @@ _¿Sigues aquí?_
 
 
 ---
-⌨️ con ❤️ por [EuSalgado](https://github.com/EuSalgado) 😊
+⌨️ con ❤️ por [EuSalgado](https://github.com/EuSalgado) 🐱‍💻
