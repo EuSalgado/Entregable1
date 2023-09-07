@@ -59,8 +59,8 @@ _¿Sigues aquí?_
 
 ## Expresiones de Gratitud 🎁
 
-* ¡Muchas gracias maestra por su atención!.
-* ¡Muchas gracias sujeto misterioso que esta leyendo esto!.
+* ¡Muchas gracias maestra por sus atenciones!
+* ¡Muchas gracias sujeto misterioso que esta leyendo esto!
 
 
 ---
