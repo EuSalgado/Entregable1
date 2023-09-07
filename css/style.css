@@ -268,14 +268,13 @@ header nav ul li a,
 }
 
 footer {
-    background-color: black;
+    background-color: #1E1E26;
     color: white;
     display: flex;
     font-family: 'Be Vietnam Pro', sans-serif;
     justify-content: space-around;
     align-items: center;
-    padding: 2.5rem 5rem;
-    width: 100%;
+    padding: 2.5rem 3rem;
     max-height: 20rem;
 }
 
@@ -284,6 +283,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 32vw;
 }
 
 .socialmedia-footer {
@@ -305,6 +305,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     min-width: 30rem;
+    width: 33vw;
 }
 
 footer nav ul li {
@@ -321,8 +322,9 @@ footer nav ul li {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin-left: 5rem;
+    align-content: flex-end;
     min-height: 7rem;
+    width: 32vw;
 }
 
 .newsletter input {
@@ -333,7 +335,7 @@ footer nav ul li {
     background-color: white;
     border-radius: 50px;
     height: 2.6rem;
-    width: 15rem;
+    width: 15vw;
     border-style: none;
 }
 
@@ -345,7 +347,7 @@ footer nav ul li {
     color: white;
     font-weight: 300;
     height: 2.6rem;
-    width: 4rem;
+    width: 4vw;
     border-style: none;
 }
 
@@ -376,7 +378,7 @@ header nav ul li:hover {
 }
 
 .best-teams p:hover {
-    background-color: #ebebeb;
+    background-color: black;
 }
 
 /* Desktop */
@@ -517,21 +519,28 @@ header nav ul li:hover {
     }
 
     .best-teams p {
-        background-color: rgb(0, 0, 0);
-        color: #ffffff;
+        background-color: #1E1E26;
+        color: white;
     }
 
     .footer-movil {
-        background-color: #000;
+        background-color: #1E1E26;
     }
 
     .third-footer {
-        min-height: 0;
-        min-width: 0;
-        margin: 0;
-        padding: 3rem 0 0 0;
-        margin: 0 0 3rem 0;
-        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+    .newsletter{
+        width: 100vw;
+    }
+    .newsletter input {
+        width: 30vw;
+    }
+    .newsletter button {
+        width: 6vw;
     }
 
     .second-footer {
