@@ -169,27 +169,31 @@ header nav ul li a,
     justify-content: space-around;
     align-items: center;
 }
-.reviews h2{
+
+.reviews h2 {
     font-size: 2rem;
     font-weight: 700;
     justify-content: center;
     padding: 0 0 5rem 0;
 }
-.review h3{
+
+.review h3 {
     color: #323851;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
     margin: 1.5rem;
 }
-.review p{
+
+.review p {
     color: #B3B2B7;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 300;
-    min-width: 24rem;
+    min-width: 30vw;
     font-size: 1rem;
     text-align: center;
     line-height: 1.5rem;
 }
+
 .more {
     align-items: center;
     background-color: #8B48BF;
@@ -204,32 +208,35 @@ header nav ul li a,
     font-size: 12.8px;
 }
 
-.review-content{
+.review-content {
     display: flex;
     flex-direction: row;
     background-color: #FAFAFA;
     padding: 1rem;
 }
-.review{
+
+.review {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 1rem;
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     position: relative;
+    width: 30vw;
 }
-.info img{
+
+.info img {
     position: absolute;
     top: -4rem;
 }
 
-.best-teams{
+.best-teams {
     background-color: #8B48BF;
     color: white;
     display: flex;
@@ -239,13 +246,15 @@ header nav ul li a,
     padding: 2.5rem 0;
     width: 100%;
 }
-.best-teams h2{
+
+.best-teams h2 {
     font-size: 2rem;
     font-weight: 700;
     justify-content: center;
     width: 25rem;
 }
-.best-teams p{
+
+.best-teams p {
     font-size: 12.8px;
     align-items: center;
     background-color: white;
@@ -258,7 +267,7 @@ header nav ul li a,
     width: 8rem;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     display: flex;
@@ -270,7 +279,7 @@ footer{
     max-height: 20rem;
 }
 
-.first-footer{
+.first-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -281,20 +290,24 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.socialmedia-footer img{
+
+.socialmedia-footer img {
     padding: .5rem;
     size: 1rem;
 }
-.logo-footer{
+
+.logo-footer {
     margin-bottom: 4rem;
 }
-.second-footer{
+
+.second-footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    min-width: 30rem;  
+    min-width: 30rem;
 }
-footer nav ul li{
+
+footer nav ul li {
     list-style: none;
     margin: auto;
     padding: 1rem 0 0 5rem;
@@ -302,7 +315,8 @@ footer nav ul li{
     font-size: .8rem;
     font-weight: lighter;
 }
-.third-footer{
+
+.third-footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -311,7 +325,7 @@ footer nav ul li{
     min-height: 7rem;
 }
 
-.newsletter input{
+.newsletter input {
     font-size: 12.8px;
     font-family: 'Be Vietnam Pro', sans-serif;
     text-align: left;
@@ -322,7 +336,8 @@ footer nav ul li{
     width: 15rem;
     border-style: none;
 }
-.newsletter button{
+
+.newsletter button {
     font-size: 12.8px;
     align-items: center;
     background-color: #8B48BF;
@@ -333,14 +348,11 @@ footer nav ul li{
     width: 4rem;
     border-style: none;
 }
-.copyright{
+
+.copyright {
     font-size: 10px;
     color: #B3B2B7;
     font-family: 'Be Vietnam Pro', sans-serif;
-}
-
-.logo-footer{
-    color: white;
 }
 
 
@@ -358,12 +370,13 @@ header nav ul li:hover {
 .more:hover {
     background-color: #7133a0;
 }
+
 .newsletter button:hover {
     background-color: #7133a0
 }
 
 .best-teams p:hover {
-background-color: #ebebeb;
+    background-color: #ebebeb;
 }
 
 /* Desktop */
@@ -464,17 +477,30 @@ background-color: #ebebeb;
         min-width: 0%;
     }
 
-    .reviews{
+    .reviews {
         margin: 5rem 0 5rem 0;
     }
-    .review-content{
+
+    .review-content {
         display: flex;
-        flex-direction: column;
         background-color: #FAFAFA;
         padding: 1rem;
     }
-    .review{
+
+    .review-sanyo, .review-navarro{
+        display: none;
+    }
+
+    .review {
         margin-top: 5rem;
+    }
+
+    .review p , .review{
+        width: 90vw;
+    }
+
+    .reviews h2{
+        padding: 0;
     }
 
     .best-teams {
@@ -494,11 +520,12 @@ background-color: #ebebeb;
         color: #ffffff;
     }
 
-    footer{
+    footer {
         flex-direction: column-reverse;
     }
-    .second-footer{
+
+    .second-footer {
         flex-direction: row;
-        min-width: 5rem;  
+        min-width: 5rem;
     }
 }
