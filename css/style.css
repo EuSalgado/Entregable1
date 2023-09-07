@@ -206,6 +206,7 @@ header nav ul li a,
     width: 9rem;
     margin-top: 2rem;
     font-size: 12.8px;
+    text-decoration: none;
 }
 
 .review-content {
@@ -254,7 +255,7 @@ header nav ul li a,
     width: 25rem;
 }
 
-.best-teams p {
+.go {
     font-size: 12.8px;
     align-items: center;
     background-color: white;
@@ -265,6 +266,7 @@ header nav ul li a,
     height: 2.6rem;
     justify-content: center;
     width: 8rem;
+    text-decoration: none;
 }
 
 footer {
@@ -377,8 +379,8 @@ header nav ul li:hover {
     background-color: #7133a0
 }
 
-.best-teams p:hover {
-    background-color: black;
+.go:hover {
+    background-color: rgb(219, 219, 219);
 }
 
 /* Desktop */
